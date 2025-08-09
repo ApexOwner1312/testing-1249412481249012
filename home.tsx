@@ -445,10 +445,10 @@ export default function Home() {
                     <div className="flex items-center">
                       <img 
                         src={pastPfp} 
-                        alt="past" 
+                        alt="pj" 
                         className="w-6 h-6 rounded-full mr-2 object-cover"
                       />
-                      <span className="text-gray-400 text-sm">past</span>
+                      <span className="text-gray-400 text-sm">pj</span>
                     </div>
                   </div>
                 </div>
