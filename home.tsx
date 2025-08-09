@@ -6,9 +6,9 @@ import AnimatedCounter from "@/components/ui/animated-counter";
 import FeatureCard from "@/components/ui/feature-card";
 import { DISCORD_INVITE_URL } from "@/lib/constants";
 import type { BotStats } from "@shared/schema";
-import sorrowPfp from "@assets/derrick_1753292881073.jpg";
-import hardwarePfp from "@assets/jonthan_1753292841877.gif";
-import pastPfp from "@assets/past_1753292928951.png";
+import sorrowPfp from "assets/sorrow_1753292881073.jpg";
+import hardwarePfp from "assets/hardware_1753292841877.jpg";
+import pjPfp from "assets/pj_1753292928951.png";
 
 export default function Home() {
   const { data: stats } = useQuery<BotStats>({
@@ -422,17 +422,17 @@ export default function Home() {
                   
                   <div className="flex items-center">
                     <div className="w-4 h-4 bg-gray-600 rounded mr-3"></div>
-                    <span className="text-gray-400">🔊 sorrow's channel</span>
+                    <span className="text-gray-400">🔊 inhale's channel</span>
                   </div>
                   
                   <div className="ml-7 space-y-2">
                     <div className="flex items-center">
                       <img 
                         src={sorrowPfp} 
-                        alt="sorrow" 
+                        alt="inhale" 
                         className="w-6 h-6 rounded-full mr-2 object-cover"
                       />
-                      <span className="text-gray-400 text-sm">sorrow</span>
+                      <span className="text-gray-400 text-sm">inhale</span>
                     </div>
                     <div className="flex items-center">
                       <img 
@@ -444,7 +444,7 @@ export default function Home() {
                     </div>
                     <div className="flex items-center">
                       <img 
-                        src={pastPfp} 
+                        src={pjPfp} 
                         alt="pj" 
                         className="w-6 h-6 rounded-full mr-2 object-cover"
                       />
